@@ -1,6 +1,5 @@
-package repository;
-
-import entities.Product;
+package com.javacode.ayajpa.repository;
+import com.javacode.ayajpa.entities.Product;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;

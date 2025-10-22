@@ -1,4 +1,4 @@
-package entities;
+package com.javacode.ayajpa.entities;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;

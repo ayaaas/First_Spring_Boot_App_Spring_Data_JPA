@@ -1,26 +1,26 @@
-package first_spring_boot_app_spring_data_jpa;
+package com.javacode.ayajpa;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-import entities.Product;
+import com.javacode.ayajpa.entities.Product;
 import org.springframework.context.annotation.ComponentScan;
-import repository.ProductRepository;
+import com.javacode.ayajpa.repository.ProductRepository;
+
 
 import java.util.List;
 
 
 @SpringBootApplication
-@ComponentScan(basePackages = {"repository", "entities"})
-public class FirstSpringBootAppSpringDataJpaApplication implements CommandLineRunner {
+public class ayajpa implements CommandLineRunner {
 
 	@Autowired
 	private ProductRepository productRepository;
 
 	public static void main(String[] args) {
-		SpringApplication.run(FirstSpringBootAppSpringDataJpaApplication.class, args);
+		SpringApplication.run(ayajpa.class, args);
 	}
 
 	@Override

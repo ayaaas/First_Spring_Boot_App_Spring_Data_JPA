@@ -13,7 +13,7 @@
 	</parent>
 
 	<groupId>com.javaCode</groupId>
-	<artifactId>First_Spring_Boot_App_Spring_Data_JPA</artifactId>
+	<artifactId>ayajpa</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>First_Spring_Boot_App_Spring_Data_JPA</name>
 	<description>First Spring Boot App with Spring Data JPA</description>
@@ -49,6 +49,8 @@
 			<artifactId>h2</artifactId>
 			<scope>runtime</scope>
 		</dependency>
+
+
 
 		<!-- ✅ Tests -->
 		<dependency>
